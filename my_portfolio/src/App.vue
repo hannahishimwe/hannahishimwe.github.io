@@ -4,7 +4,7 @@ import Landing from './components/Landing.vue'
 
 <template>
   <div>
-    <Landing title="Hannah Ishimwe" copy="Explore" />
+    <Landing copy="Explore" />
   </div>
 </template>
 

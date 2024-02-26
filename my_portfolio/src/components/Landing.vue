@@ -1,15 +1,14 @@
 <script setup>
 
-
+import Heading from './Heading.vue'
 defineProps({
-  title: String,
   copy: String,
 })
 
 </script>
 
 <template>
-  <h1>{{ title }}</h1>
+  <Heading/>
 
   <p class="header-copy">{{ copy }}</p>
 
