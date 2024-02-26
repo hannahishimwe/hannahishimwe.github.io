@@ -28,7 +28,7 @@
         white-space: nowrap; /* Prevents line breaks */
         margin: 0 auto;
         display: inline-block;
-        animation: typing 3s steps(40) 1, blink-caret 0.75s step-end infinite;
+        animation: typing 3s steps(40) 1, blink-caret 0.75s step-end infinite  ;
     }
 
     @keyframes typing {

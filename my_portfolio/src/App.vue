@@ -4,7 +4,7 @@ import Landing from './components/Landing.vue'
 
 <template>
   <div>
-    <Landing copy="Explore" />
+    <Landing copy="Computer Science BSc, with a focus in Data" />
   </div>
 </template>
 
