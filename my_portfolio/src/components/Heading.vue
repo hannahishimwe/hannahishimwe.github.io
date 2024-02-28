@@ -35,10 +35,14 @@
     from {
         width: 0; /* Start with 0 width */
     }
+    50% {
+        width: 0%; /* Pause at half width */
+    }
     100% {
     width: 100%; /* End at full width */
   }
     }
+
 
     @keyframes blink-caret {
     from,to {
