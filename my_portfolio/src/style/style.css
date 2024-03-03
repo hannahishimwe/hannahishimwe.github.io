@@ -8,7 +8,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: black;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -104,5 +104,11 @@ transition: width 0.5s ease;
 
 .nav-link:hover {
 color:  #f8eaea; /* Text color on hover */
+}
+
+.fixed-plus{
+  position: absolute; /* Position the image absolutely */
+  bottom: 8%; /* Align the image to the bottom of the container */
+  left: 8%; /* Align the image to the left of the container */
 }
 

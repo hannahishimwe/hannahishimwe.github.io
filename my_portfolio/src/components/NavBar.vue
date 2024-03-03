@@ -14,7 +14,7 @@
 <style scoped>
 .nav-div {
     position: absolute;
-    top: 10px;
+    top: 20px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
