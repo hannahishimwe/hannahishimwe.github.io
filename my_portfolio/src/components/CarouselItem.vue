@@ -7,8 +7,8 @@ defineProps({
 </script>
 
 <template>
-<div class="carousel-div">
-    <div class="text-div">
+<div class="carousel-item-div">
+    <div class="carousel-text-div">
         <p>{{text}}</p>
     </div>
     <div class="img-div" :style="{ 'background-image': 'url(' + url + ')' }">
@@ -17,7 +17,7 @@ defineProps({
 </template>
 
 <style scoped>
-.carousel-div {
+.carousel-item-div {
     position: relative; /* Required for absolute positioning of children */
     display: flex;
     width: 200px; /* Set the width of the div */
@@ -27,6 +27,7 @@ defineProps({
     border-right: 0; /* Remove border on the right side */
     border-bottom: 0; /* Remove border on the bottom side */
     overflow: hidden; /* Hide overflowing content */
+    padding: 20px;
 }
 
 .img-div {
@@ -42,7 +43,7 @@ defineProps({
     transform: translateX(-50%); /* Center horizontally */
 }
 
-.text-div {
+.carousel-text-div {
     position: absolute;
     width: 200px; /* Set the width of the div */
     height: 40px; /* Set the height of the div */
