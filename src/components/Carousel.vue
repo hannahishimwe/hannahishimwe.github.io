@@ -32,6 +32,7 @@ data() {
     margin-top: 3rem;
     width: 100%;
     height: 600px;
-    
+    left: 50%;
+    top: 50%;
 }
 </style>
