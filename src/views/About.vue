@@ -34,16 +34,16 @@ import NavBar from '../components/NavBar.vue'
         font-size: 1em;
     }
     .about-div{
-        display: flex; /* Changed from grid to flex for simpler layout */
-        align-items: center; /* Vertically align content */
+        display: flex; 
+        align-items: center; 
 
     }
     .about-image{
         position: relative;
         background-image: url('../assets/images/laptop_image.jpg');
-        background-size: contain; /* Fit the entire image within the container */
+        background-size: contain; 
         background-position: center;
-        background-repeat: no-repeat; /* Prevent image from repeating */
+        background-repeat: no-repeat; 
         border-radius: 15%;
         width: 600px;
         height: 600px;

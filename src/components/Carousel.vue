@@ -2,7 +2,7 @@
 import CarouselItem from '../components/CarouselItem.vue'
 export default {
   components: {
-    CarouselItem // Register the CarouselItem component
+    CarouselItem 
   },
 data() {
     return {
