@@ -1,5 +1,5 @@
 
-import { createApp } from "../node_modules/vue/dist/vue.esm-bundler.js"
+import { createApp } from 'vue'
 import './style/style.css'
 import App from './App.vue'
 import router from './router'
