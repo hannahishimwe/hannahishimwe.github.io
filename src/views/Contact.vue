@@ -6,7 +6,8 @@ import NavBar from '../components/NavBar.vue'
 <NavBar/>
 <div class="contact-wrapper">
     <div class="contact-heading">
-    <h1 class="contact-text">Thanks for staying a while.<br>Let's connect.</h1>
+    <h1 class="contact-text">Thanks for staying a while.</h1>
+    <p>Let's connect. </p>
 </div>
 <div class="contact-div">
 <div class="location">
@@ -32,20 +33,23 @@ import NavBar from '../components/NavBar.vue'
 
 <style scoped>
 .contact-wrapper{
-    display: flex; 
-    align-items: center; 
+  display: flex;
+  flex-direction: row;
+  margin-left: 100px;
     
 }
 
 .contact-heading{
-    position:relative;
+    flex: 1.5;
     text-align: left;
     font-size: 36px;
-    width: 500px;
-    margin-right: 100px;
+    line-height: 1.2;
+  
 }
 .contact-div{
-    position:relative;
+    flex:1;
+    margin-top: 130px;
+    margin-left: 50px;
     display:flex;
     flex-direction: column;
 }
