@@ -26,13 +26,13 @@ Feedback highlighted that the improvements allowed the team to continue their vi
 <br /><br />
 Technology: PHP, HTML, CSS, JavaScript.`,imageUrl:Ue(t)},null,8,["imageUrl"]),j(r,{to:"/"},{default:be(()=>[...s[1]||(s[1]=[z("img",{class:"fixed-plus",src:Vt},null,-1)])]),_:1})])}}},Ju=et(Gu,[["__scopeId","data-v-96f3a4c5"]]),Xu={class:"page-container"},Qu={__name:"WalthamForest",setup(e){const t=new URL("/assets/edith_main-Do_A2q4J.jpg",import.meta.url).href;return(n,s)=>{const r=ut("router-link");return ke(),Ye("div",Xu,[j(Kt),j(r,{to:"/Experience"},{default:be(()=>[...s[0]||(s[0]=[z("img",{class:"fixed-back",src:Vn},null,-1)])]),_:1}),j(Kn,{title:"Appello: A PCN Case Officer Dashboard",body:`A dashboard for managing PCN cases for the London Borough of Waltham Forest.
 
-This is the high level prototype before development.
+This is the high fidelity prototype before development.
 <br /><br />
 Key design choices: Accessibility-first approach with clear fonts and colour choices for extreme users, smooth interaction flows and design elements to reduce feelings of monotony and improve task efficiency. 
 <br /><br />
 Feedback highlighted the design as modern, fun and innovative. 
 <br /><br />
-Technology: Figma`,imageUrl:Ue(t)},null,8,["imageUrl"]),j(r,{to:"/"},{default:be(()=>[...s[1]||(s[1]=[z("img",{class:"fixed-plus",src:Vt},null,-1)])]),_:1})])}}},$u=et(Qu,[["__scopeId","data-v-3894b5eb"]]),qu={class:"page-container"},Zu={__name:"Jellytask",setup(e){const t=new URL("/assets/jellyfish_main-BLi9mE-R.jpg",import.meta.url).href;return(n,s)=>{const r=ut("router-link");return ke(),Ye("div",qu,[j(Kt),j(r,{to:"/Experience"},{default:be(()=>[...s[0]||(s[0]=[z("img",{class:"fixed-back",src:Vn},null,-1)])]),_:1}),j(Kn,{title:"Jellyfish: A Task Managing Application",body:`A user-focused application designed to work with the mind to encourage productivity. 
+Technology: Figma`,imageUrl:Ue(t)},null,8,["imageUrl"]),j(r,{to:"/"},{default:be(()=>[...s[1]||(s[1]=[z("img",{class:"fixed-plus",src:Vt},null,-1)])]),_:1})])}}},$u=et(Qu,[["__scopeId","data-v-78428660"]]),qu={class:"page-container"},Zu={__name:"Jellytask",setup(e){const t=new URL("/assets/jellyfish_main-BLi9mE-R.jpg",import.meta.url).href;return(n,s)=>{const r=ut("router-link");return ke(),Ye("div",qu,[j(Kt),j(r,{to:"/Experience"},{default:be(()=>[...s[0]||(s[0]=[z("img",{class:"fixed-back",src:Vn},null,-1)])]),_:1}),j(Kn,{title:"Jellyfish: A Task Managing Application",body:`A user-focused application designed to work with the mind to encourage productivity. 
     <br /><br />
     Key design choices: Immediate visual feedback on task completion, readable fonts and spacing optimised to boost overall efficiency and task tracking. 
     <br /><br />
