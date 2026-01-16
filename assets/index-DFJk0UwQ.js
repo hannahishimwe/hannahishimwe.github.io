@@ -44,13 +44,13 @@ Key design choices: User-centred design informed by interviews, coding quotes, t
 <br /><br />
 Feedback from participants highlighted the design as thoughtful, usable, and well-informed by research, demonstrating strong user-focused design and prototype development skills. 
 <br /><br />
-Technology: Miro, Figma.`,imageUrl:Ue(t)},null,8,["imageUrl"]),j(r,{to:"/"},{default:be(()=>[...s[1]||(s[1]=[z("img",{class:"fixed-plus",src:Vt},null,-1)])]),_:1})])}}},sf=et(nf,[["__scopeId","data-v-b0be19b0"]]),rf={class:"page-container"},of={__name:"Bonita",setup(e){const t=new URL("/assets/404_page-DR8AWaSj.png",import.meta.url).href;return(n,s)=>{const r=ut("router-link");return ke(),Ye("div",rf,[j(Kt),j(r,{to:"/Experience"},{default:be(()=>[...s[0]||(s[0]=[z("img",{class:"fixed-back",src:Vn},null,-1)])]),_:1}),j(Kn,{title:"Bonita: Sustainability App for Students Prototype",body:`A creative exercise and rapid prototype. I combined a café photo shoot I was interested in (Bonita) with a design exercise prompt (a 404 page for a Boston-based company).
+Technology: Miro, Figma.`,imageUrl:Ue(t)},null,8,["imageUrl"]),j(r,{to:"/"},{default:be(()=>[...s[1]||(s[1]=[z("img",{class:"fixed-plus",src:Vt},null,-1)])]),_:1})])}}},sf=et(nf,[["__scopeId","data-v-b0be19b0"]]),rf={class:"page-container"},of={__name:"Bonita",setup(e){const t=new URL("/assets/404_page-DR8AWaSj.png",import.meta.url).href;return(n,s)=>{const r=ut("router-link");return ke(),Ye("div",rf,[j(Kt),j(r,{to:"/Experience"},{default:be(()=>[...s[0]||(s[0]=[z("img",{class:"fixed-back",src:Vn},null,-1)])]),_:1}),j(Kn,{title:"Bonita: A Witty 404 Page",body:`A creative exercise and rapid prototype. I combined a café photo shoot I was interested in (Bonita) with a design exercise prompt (a 404 page for a Boston-based company).
 <br /><br />
 Key design choices: Used Boston-inspired colour schemes and iconic associations (Harvard, intelligence, local character) to create a witty, memorable experience, even though the café isn’t actually from Boston. Clear layout and hierarchy ensure usability. 
 <br /><br />
 I used this to practice creative thinking, adaptability, and the ability to turn cultural cues into intentional, user-focused design. 
 <br /><br />
-Technology: Figma.`,imageUrl:Ue(t)},null,8,["imageUrl"]),j(r,{to:"/"},{default:be(()=>[...s[1]||(s[1]=[z("img",{class:"fixed-plus",src:Vt},null,-1)])]),_:1})])}}},lf=et(of,[["__scopeId","data-v-564f5b63"]]);/*!
+Technology: Figma.`,imageUrl:Ue(t)},null,8,["imageUrl"]),j(r,{to:"/"},{default:be(()=>[...s[1]||(s[1]=[z("img",{class:"fixed-plus",src:Vt},null,-1)])]),_:1})])}}},lf=et(of,[["__scopeId","data-v-5258b6cb"]]);/*!
   * vue-router v4.4.5
   * (c) 2024 Eduardo San Martin Morote
   * @license MIT
