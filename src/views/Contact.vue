@@ -35,7 +35,12 @@ import NavBar from '../components/NavBar.vue'
 .contact-wrapper{
   display: flex;
   flex-direction: row;
-  margin-left: 100px;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  margin-left: 150px !important;
+  overflow: hidden;
     
 }
 

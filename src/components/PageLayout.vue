@@ -3,6 +3,7 @@
 const props = defineProps({
   title: { type: String, required: true },
   body: { type: String, required: true },
+  bodyClass: {type: String, default: '', required:false},
   imageUrl: { type: String, required: true },
 })
 </script>
@@ -11,7 +12,7 @@ const props = defineProps({
   <div class="content-card">
     <div class="text-section">
       <h2 class="title">{{ title }}</h2>
-      <p class="body">{{ body }}</p>
+      <p v-html="body" :class="bodyClass" class="body"></p>
     </div>
     <div class="image-section">
       <img :src="imageUrl" alt="Card image" />
@@ -29,6 +30,8 @@ const props = defineProps({
   overflow: hidden;       
   border-radius: 20px;
   margin-left: 50px;
+  flex-shrink:0;
+  flex-grow:0;
 
 
 }

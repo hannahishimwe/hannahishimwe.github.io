@@ -11,7 +11,13 @@ const tasImg = new URL('../../assets/images/chatsnoir_main.png', import.meta.url
 <router-link to="/Experience"><img class="fixed-back" src="../../assets/images/back_button.png"></router-link> 
 <PageLayout
   title="Chatsnoirs: Sustainability App for Students Prototype"
-  body="This is some body text that explains something important. It can wrap across multiple lines but will stay inside the card."
+  body="A high-fidelity prototype for an app encouraging university students to adopt sustainable practices. 
+<br /><br />
+Key design choices: User-centred design informed by interviews, coding quotes, thematic analysis, and HCI/UX research methods, ensuring the interface was intuitive, engaging, and aligned with user needs. 
+<br /><br />
+Feedback from participants highlighted the design as thoughtful, usable, and well-informed by research, demonstrating strong user-focused design and prototype development skills. 
+<br /><br />
+Technology: Miro, Figma."
   :imageUrl="tasImg"
 />
  <router-link to="/"><img class="fixed-plus" src="../../assets/images/plus_sign.png"></router-link> 

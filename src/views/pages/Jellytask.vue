@@ -11,7 +11,15 @@ const tasImg = new URL('../../assets/images/jellyfish_main.jpg', import.meta.url
 <router-link to="/Experience"><img class="fixed-back" src="../../assets/images/back_button.png"></router-link> 
 <PageLayout
   title="Jellyfish: A Task Managing Application"
-  body="This is some body text that explains something important. It can wrap across multiple lines but will stay inside the card."
+  body=
+    "A user-focused application designed to work with the mind to encourage productivity. 
+    <br /><br />
+    Key design choices: Immediate visual feedback on task completion, readable fonts and spacing optimised to boost overall efficiency and task tracking. 
+    <br /><br />
+    Feedback noted a demonstration of the ability to translate functional requirements into intuitive, well-structured interfaces.
+    <br /> <br />
+    Technology: Django (Python), HTML, CSS."
+
   :imageUrl="tasImg"
 />
  <router-link to="/"><img class="fixed-plus" src="../../assets/images/plus_sign.png"></router-link> 

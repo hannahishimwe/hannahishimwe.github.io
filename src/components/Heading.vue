@@ -46,26 +46,18 @@
 
     @keyframes blink-caret {
     from,to {
-        border-color: transparent; /* Hide cursor */
+        border-color: transparent; 
     }
     50% {
-        border-color: orange; /* Blinking cursor effect */
+        border-color: orange; 
     }
 
 }
 
-    /* Add this rule to reveal text over time */
     .text {
     overflow: hidden;
     white-space: nowrap;
     }
 
-    /* Additional styling for the cursor effect */
-
-    /* .typing-animation::after {
-    content: '|'; /* Cursor character */
-    /* display: inline-block;
-    width: 0;
-    }  */
 </style>
   

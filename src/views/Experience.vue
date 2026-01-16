@@ -28,6 +28,11 @@ const images = [
     url: new URL('../assets/images/UKTAS.png', import.meta.url).href,
     link:'/TAS'
   },
+    {
+    id: 6,
+    url: new URL('../assets/images/bonita.jpg', import.meta.url).href,
+    link:'/Bonita'
+  },
 ]
 
 
@@ -42,7 +47,8 @@ const carouselConfig = {
 
 <template>
 <NavBar/>
-
+<div class="experience-page">
+<div class="experience-div">
 <h1> My Experience </h1>
 <Carousel v-bind="carouselConfig">
     <Slide v-for="image in images" :key="image.id">
@@ -59,12 +65,39 @@ const carouselConfig = {
 
 
 <router-link to="/"><img class="fixed-plus" src="../assets/images/plus_sign.png"></router-link> 
-
+</div>
+</div>
 </template>
 
 <style scoped>
-body{
-overflow: hidden;
+
+/* .experience-page{
+   background: 
+    radial-gradient(circle at var(--x, 50%) var(--y, 50%), #1a1a1a 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, #141414 0%, transparent 40%),
+    #000000;
+  animation: moveGradient 3s ease infinite;
+}
+@keyframes moveGradient {
+  0%, 100% {
+    --x: 20%;
+    --y: 30%;
+  }
+  50% {
+    --x: 80%;
+    --y: 70%;
+  }
+} */
+
+.experience-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  margin-top: -80px;
+ 
 }
 
 h1{
@@ -106,6 +139,7 @@ h1{
 
 .carousel__viewport {
   perspective: 2000px;
+
 }
 
 .carousel__track {
@@ -132,19 +166,20 @@ h1{
 
 .carousel__slide--prev {
   opacity: var(--carousel-opacity-near);
-  transform: rotateY(-10deg) scale(0.95);
+  transform: rotateY(-10deg) scale(0.85);
 }
 
 .carousel__slide--active {
   opacity: var(--carousel-opacity-active);
   transform: rotateY(0) scale(1);
-  filter: drop-shadow(0 10px 15px rgba(255, 255, 255, 0.4));
+  filter: drop-shadow(0 4px 13px rgba(255, 255, 255, 0.3));
+  transform: scale(1.05)
   
 }
 
 .carousel__slide--next {
   opacity: var(--carousel-opacity-near);
-  transform: rotateY(10deg) scale(0.95);
+  transform: rotateY(10deg) scale(0.85);
 }
 
 .carousel__slide--next ~ .carousel__slide {

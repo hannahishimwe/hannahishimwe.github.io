@@ -11,7 +11,13 @@ const tasImg = new URL('../../assets/images/TAS.png', import.meta.url).href
 <router-link to="/Experience"><img class="fixed-back" src="../../assets/images/back_button.png"></router-link> 
 <PageLayout
   title="TAS Usecase Library"
-  body="This is some body text that explains something important. It can wrap across multiple lines but will stay inside the card."
+  body="A maintenance and optimisation project for a web application, ensuring it was ready for continued use. 
+<br /><br />
+Key design choices: Code fixes to improve usability, reliability, and workflow efficiency. Improvements to accessibility to comply with WCAG standards. 
+<br /><br />
+Feedback highlighted that the improvements allowed the team to continue their vital research work without interruption, allowing me to show practical problem-solving and technical competence. 
+<br /><br />
+Technology: PHP, HTML, CSS, JavaScript."
   :imageUrl="tasImg"
 />
  <router-link to="/"><img class="fixed-plus" src="../../assets/images/plus_sign.png"></router-link> 

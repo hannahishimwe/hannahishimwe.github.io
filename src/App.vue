@@ -1,7 +1,7 @@
 <template>
   <router-view v-slot="{ Component, route }">
     <Transition name="fade" mode="out-in">
-      <div :key="route.path">
+      <div :key="route.path" >
         <component :is="Component" />
       </div>
     </Transition>
@@ -23,5 +23,7 @@
 .fade-leave-to {
   opacity: 0;
 }
+
+
 
 </style>

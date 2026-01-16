@@ -6,17 +6,29 @@ defineProps({
 </script>
 
 <template>
+<div class = "landing-container">
   <Heading/>
   <div class="copy-parent">
-    <p class="landing-copy">Computer Science BSc, with a focus in Data</p>
+    <p class="landing-copy">Designer, Writer, Computer Science MSci.</p>
   </div>
   <div class="button-parent">
     <router-link to="/about" class="nav-link"><em>Learn More</em></router-link>
+</div>
 </div>
 
 </template>
 
 <style scoped>
+
+.landing-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+
+}
 
   .copy-parent{
     display: flex;

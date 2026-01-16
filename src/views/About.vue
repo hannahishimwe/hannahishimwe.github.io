@@ -9,10 +9,12 @@ import NavBar from '../components/NavBar.vue'
     <div class="about-text">
         <h1>About Me</h1>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            I'm Hannah: a freelance web architect, front end designer, and writer.<br><br>
+            I combine a strong creative instinct with a solid technical foundation as a Computer Science Master's student to translate requirements into clean, usable, well-structured layouts.
+            I thrive in an ever dynamic atmosphere, always described by previous employers as organised, reliable, proactive and ambitious. <br><br>
+            I value a growth mindset. I am quick to learn, always building new skills and not having a fear to try new things. <br><br>
+            Have a look around, explore and get in touch to collaborate.<br><br>
+            The best experience with this website is in full screen mode.
         </p>
     </div>
     <div class="about-image">&nbsp;
@@ -25,7 +27,7 @@ import NavBar from '../components/NavBar.vue'
 <style scoped>
     h1, p{
         font-family: 'Questrial', sans-serif;
-        margin-top: 10px; 
+        margin-top: -20px;
     }
     h1{
         font-size: 3em;
@@ -34,8 +36,12 @@ import NavBar from '../components/NavBar.vue'
         font-size: 1em;
     }
     .about-div{
-        display: flex; 
-        align-items: center; 
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        width: 100%;
 
     }
     .about-image{
@@ -50,7 +56,7 @@ import NavBar from '../components/NavBar.vue'
     }
     .about-text{
         position: relative;
-        margin: 0 -5px 0 100px;
+        margin: 0px -5px 250px 100px;
         text-align: left;
         width: 400px;
         height: 300px;
