@@ -49,7 +49,7 @@ const carouselConfig = {
 <NavBar/>
 <div class="experience-page">
 <div class="experience-div">
-<h1> My Experience </h1>
+<h1> Scroll through each project </h1>
 <Carousel v-bind="carouselConfig">
     <Slide v-for="image in images" :key="image.id">
         <router-link :to="image.link" class="image-container">
@@ -101,7 +101,7 @@ const carouselConfig = {
 }
 
 h1{
-  font-size: 60px;
+  font-size: 50px;
 }
 
 :root {
