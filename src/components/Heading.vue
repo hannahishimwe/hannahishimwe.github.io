@@ -1,10 +1,12 @@
-<script setup>
-
+<script >
+setTimeout(() => {
+  document.querySelector('.typing-animation').classList.add('finished');
+}, 3050); 
 </script>
 
 <template>
     <div class="typing-animation">
-        <h1 class="text"><em>Hello,</em> I'm Hannah Ishimwe</h1>
+        <h1 class="text"><em>Hello,</em> I'm Hannah Destiny</h1>
     </div>
 
 </template>
@@ -28,7 +30,8 @@
         white-space: nowrap; /* Prevents line breaks */
         margin: 0 auto;
         display: inline-block;
-        animation: typing 3s steps(40) 1, blink-caret 0.75s step-end infinite  ;
+        width: fit-content;
+        animation: typing 3s steps(40) 1, blink-caret 0.75s step-end infinite ;
     }
 
     @keyframes typing {
@@ -39,13 +42,17 @@
         width: 0%; /* Pause at half width */
     }
     100% {
-    width: 100%; /* End at full width */
+    width: 70%; /* End at full width */
   }
     }
 
+    .typing-animation.finished {
+  border-right: none;
+}
+
 
     @keyframes blink-caret {
-    from,to {
+    from, to {
         border-color: transparent; 
     }
     50% {
