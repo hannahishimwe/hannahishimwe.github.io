@@ -13,7 +13,7 @@ const tasImg = new URL('../../assets/images/edith_main.jpg', import.meta.url).hr
   title="Appello: A PCN Case Officer Dashboard"
   body="A dashboard for managing PCN cases for the London Borough of Waltham Forest.
 
-This is the high level prototype before development.
+This is the high fidelity prototype before development.
 <br /><br />
 Key design choices: Accessibility-first approach with clear fonts and colour choices for extreme users, smooth interaction flows and design elements to reduce feelings of monotony and improve task efficiency. 
 <br /><br />
