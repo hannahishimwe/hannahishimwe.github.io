@@ -10,7 +10,7 @@ const tasImg = new URL('../../assets/images/404_page.png', import.meta.url).href
 <NavBar/>
 <router-link to="/Experience"><img class="fixed-back" src="../../assets/images/back_button.png"></router-link> 
 <PageLayout
-  title="Bonita: Sustainability App for Students Prototype"
+  title="Bonita: A Witty 404 Page"
   body="A creative exercise and rapid prototype. I combined a café photo shoot I was interested in (Bonita) with a design exercise prompt (a 404 page for a Boston-based company).
 <br /><br />
 Key design choices: Used Boston-inspired colour schemes and iconic associations (Harvard, intelligence, local character) to create a witty, memorable experience, even though the café isn’t actually from Boston. Clear layout and hierarchy ensure usability. 
