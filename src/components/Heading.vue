@@ -5,7 +5,7 @@ setTimeout(() => {
 </script>
 
 <template>
-    <div class="typing-animation">
+    <div >
         <h1 class="text"><em>Hello,</em> I'm Hannah Destiny</h1>
     </div>
 
